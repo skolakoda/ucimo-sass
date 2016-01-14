@@ -1,3 +1,5 @@
+![sass](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
+
 # Učimo Sass
 
 [Sass](http://sass-lang.com/) je nadskup CSS-a. Svaki validan .css fajl je istovremeno validan .scss fajl. Sass daje dodatne moći CSS-u, između ostalog varijable i nešto nalik na funkcije.
