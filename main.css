@@ -1,0 +1,20 @@
+body {
+  background: #090; }
+
+.blog .entry {
+  background: #FFF; }
+  .blog .entry h1 {
+    color: #090; }
+  .blog .entry p {
+    font-size: 120%; }
+    html.csscolumns .blog .entry p {
+      column-count: 2;
+      column-gap: 10px;
+      margin: 10px; }
+
+a {
+  color: #090; }
+  a:hover {
+    color: orange; }
+
+/*# sourceMappingURL=main.css.map */

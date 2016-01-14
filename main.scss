@@ -1,0 +1,29 @@
+$primary-color: #090;
+$secondary-color: #FFF;
+
+body {
+    background: $primary-color;
+}
+
+.blog .entry {
+    background: $secondary-color;
+    h1 {
+        color: $primary-color;
+    }
+
+    p {
+        font-size: 120%;
+        html.csscolumns & {
+            column-count: 2;
+            column-gap: 10px;
+            margin: 10px;
+        }
+    }
+}
+
+a {
+    color: $primary-color;
+    &:hover {
+        color: orange;
+    }
+}
