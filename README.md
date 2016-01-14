@@ -15,6 +15,10 @@ gem install sass
 ```
 
 ## Pokretanje 
+```
+sass style.scss
+```
+(pretvara određeni scss fajl u css)
 
 ```
 sass --watch .
