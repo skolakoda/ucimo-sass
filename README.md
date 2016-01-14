@@ -17,3 +17,4 @@ gem install sass
 ```
 sass --watch .
 ```
+(posmatra sve scss fajlove i kompajlira ih u css)
