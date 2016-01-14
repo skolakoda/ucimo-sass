@@ -1,5 +1,7 @@
 $primary-color: #090;
 $secondary-color: #FFF;
+$complement-primary: complement($primary-color);
+$lighter-primary: lighten($primary-color, 20%);
 
 body {
     background: $primary-color;
@@ -24,8 +26,8 @@ body {
 }
 
 a {
-    color: purple;
+    color: $complement-primary;
     &:hover {
-        color: orange;
+        color: $lighter-primary;
     }
 }
