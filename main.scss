@@ -8,6 +8,7 @@ body {
 
 .blog .entry {
     background: $secondary-color;
+    color: $primary-color;
     h1 {
         color: $primary-color;
     }
@@ -23,7 +24,7 @@ body {
 }
 
 a {
-    color: $primary-color;
+    color: purple;
     &:hover {
         color: orange;
     }
