@@ -18,7 +18,7 @@ gem install sass
 ```
 sass style.scss
 ```
-(pretvara određeni scss fajl u css)
+(kompajlira scss fajl u css)
 
 ```
 sass --watch .
