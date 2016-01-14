@@ -11,3 +11,9 @@ Da biste instalirali Sass morate imati instaliran Ruby programski jezik.
 ```
 gem install sass
 ```
+
+## Pokretanje 
+
+```
+sass --watch .
+```
