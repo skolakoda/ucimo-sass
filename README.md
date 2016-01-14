@@ -1,4 +1,4 @@
-![sass](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
+![sass](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg=300px)
 
 # Učimo Sass
 
