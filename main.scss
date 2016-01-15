@@ -1,7 +1,4 @@
-$primary-color: #090;
-$secondary-color: #FFF;
-$complement-primary: complement($primary-color);
-$lighter-primary: lighten($primary-color, 20%);
+@import 'variables.scss';
 
 body {
     background: $primary-color;
