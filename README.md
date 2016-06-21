@@ -50,3 +50,4 @@ Takođe, možeš odmah izvesti minifikovan css:
 node-sass -w src/sass -o dist/css --output-style compressed
 ```
 
+Sve opcije možeš pronaći [ovde](https://github.com/sass/node-sass#command-line-interface).
