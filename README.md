@@ -33,7 +33,7 @@ Opciono možeš dodati ulazni i izlazni folder (ulazni `sass`, izlazni `css`):
 sass --watch sass:css
 ```
 
-## NPM watch task
+### NPM watch task
 
 Za `npm` treba instalirati `node-sass`, koji prima ulazni (`src/sass`) i izlazni folder (`dist/css`) malo drukčim redosledom:
 ```
