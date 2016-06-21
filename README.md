@@ -15,12 +15,18 @@ gem install sass
 ```
 
 ## Pokretanje 
+
+Kompajlira scss fajl u css:
 ```
 sass style.scss
 ```
-(kompajlira scss fajl u css)
 
+Posmatra sve scss fajlove i kompajlira ih u css:
 ```
 sass --watch .
 ```
-(posmatra sve scss fajlove i kompajlira ih u css)
+
+Opciono možeš dodati ulazni i izlazni folder (ulazni `sass`, izlazni `css`):
+```
+sass --watch sass:css
+```
