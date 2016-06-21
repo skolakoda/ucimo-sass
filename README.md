@@ -14,7 +14,7 @@ Da biste instalirali Sass morate imati instaliran Ruby programski jezik.
 gem install sass
 ```
 
-## Pokretanje 
+## Kompajliranje 
 
 Kompajlira scss fajl u css:
 ```
