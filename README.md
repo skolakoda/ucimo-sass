@@ -40,7 +40,7 @@ Za `npm` treba instalirati `node-sass`:
 npm install --save-dev node-sass
 ```
 
-Ulazni (`src/sass`) i izlazni folder (`dist/css`) se navode na sledeći način:
+Dodatne opcije (watch, ulazni i izlazni folder) se navode na sledeći način:
 ```
 node-sass -w src/sass -o dist/css
 ```
