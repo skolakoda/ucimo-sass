@@ -45,7 +45,7 @@ Dodatne opcije (watch, ulazni i izlazni folder) se navode na sledeći način:
 node-sass -w src/sass -o dist/css
 ```
 
-Možeš odmah izvesti minifikovan css:
+Takođe, možeš odmah izvesti minifikovan css:
 ```
 node-sass -w src/sass -o dist/css --output-style compressed
 ```
