@@ -6,7 +6,7 @@
 
 ## Instalacija
 
-Da biste instalirali Sass morate imati instaliran `Ruby` programski jezik. 
+Da biste instalirali Sass morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik. 
 
 ```
 gem install sass
