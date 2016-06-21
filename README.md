@@ -1,4 +1,4 @@
-![sass](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
+![sass](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/320px-Sass_Logo_Color.svg.png)
 
 # Učimo Sass
 
