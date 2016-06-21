@@ -4,16 +4,15 @@
 
 [Sass](http://sass-lang.com/) je nadskup CSS-a. Svaki validan .css fajl je istovremeno validan .scss fajl. Sass daje dodatne moći CSS-u, između ostalog varijable i funkcije.
 
-## Preduslovi
+## Instalacija
 
 Da biste instalirali Sass morate imati instaliran `Ruby` programski jezik. 
 
-Ukoliko ga koristite preko `npm` paketa, onda morate imati instaliran `Node.js`.
-
-## Instalacija
 ```
 gem install sass
 ```
+
+Ukoliko sass koristite preko `npm` paketa, onda morate imati instaliran `Node.js`.
 
 ## Kompajliranje 
 
