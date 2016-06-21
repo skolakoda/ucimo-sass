@@ -6,13 +6,13 @@
 
 ## Instalacija
 
-Da biste instalirali Sass morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik. 
+Da biste instalirali `Sass` morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik. 
 
 ```
 gem install sass
 ```
 
-Ukoliko sass koristite preko `npm` paketa, onda morate imati instaliran `Node.js`.
+Ukoliko ga koristite preko `npm` paketa, onda morate imati instaliran [Node.js](https://nodejs.org).
 
 ## Kompajliranje 
 
