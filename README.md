@@ -35,9 +35,13 @@ sass --watch sass:css
 
 ### NPM watch
 
-Za `npm` treba instalirati `node-sass`, koji prima ulazni (`src/sass`) i izlazni folder (`dist/css`) malo drukčim redosledom:
+Za `npm` treba instalirati `node-sass`: 
 ```
 npm install --save-dev node-sass
+```
+
+Ulazni (`src/sass`) i izlazni folder (`dist/css`) se navode na sledeći način:
+```
 node-sass -w src/sass -o dist/css
 ```
 
