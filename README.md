@@ -6,7 +6,9 @@
 
 ## Preduslovi
 
-Da biste instalirali Sass morate imati instaliran `Ruby` programski jezik. Ukoliko ga koristite preko `npm` paketa, onda morate imati instaliran `Node.js`.
+Da biste instalirali Sass morate imati instaliran `Ruby` programski jezik. 
+
+Ukoliko ga koristite preko `npm` paketa, onda morate imati instaliran `Node.js`.
 
 ## Instalacija
 ```
