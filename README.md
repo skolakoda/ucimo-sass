@@ -21,6 +21,8 @@ Kompajlira scss fajl u css:
 sass style.scss
 ```
 
+## Posmatranje 
+
 Posmatra sve scss fajlove i kompajlira ih u css:
 ```
 sass --watch .
@@ -30,3 +32,17 @@ Opciono možeš dodati ulazni i izlazni folder (ulazni `sass`, izlazni `css`):
 ```
 sass --watch sass:css
 ```
+
+## NPM watch task
+
+Za npm treba instalirati `node-sass`, koji prima ulazni (`src/sass`) i izlazni folder (`dist/css`) malo drukčim redosledom:
+```
+npm install --save-dev node-sass
+node-sass -w src/sass -o dist/css
+```
+
+Možeš odmah izvesti minifikovan css:
+```
+node-sass -w src/sass -o dist/css --output-style compressed
+```
+
