@@ -20,21 +20,23 @@ gem install sass
 
 ## Pokretanje
 
-Naravno, prvo kloniraš repo:
+Prvo kloniraš repo i uđeš u njega:
 ```
 git clone https://github.com/skolakoda/ucimo-sass.git
+cd ucimo-sass
 ```
 
-Da bi radio na lekcijama, moraš ući u odgovarajući folder. Na primer:
+Zatim uđeš u folder neke lekcije, na primer:
 ```
-cd ucimo-sass
 cd 10-varijable
 ```
 
-Zatim pokreneš komandu koja posmatra folder `sass` i kompajlira fajlove u folder `css`:
+Odatle pokreneš komandu koja posmatra folder `sass` i kompajlira fajlove u folder `css`:
 ```
 sass --watch sass:css
 ```
+
+Za svaku lekciju Sass prevodilac se pokreće na isti način.
 
 ## Opcije
 
