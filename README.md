@@ -2,7 +2,7 @@
 
 # Učimo Sass
 
-[Sass](http://sass-lang.com/) je skriptni programski jezik, koji se prevodi u CSS. Koristi ekstenziju `scss`. U potpunosti podržava CSS sintaksu, tako da je svaki validan `css` fajl istovremeno validan `scss` fajl (samo zamenite ekstenziju).
+[Sass](http://sass-lang.com/) je skriptni programski jezik, koji se prevodi u CSS. Koristi ekstenziju `.scss`. U potpunosti podržava CSS sintaksu, tako da je svaki validan `css` fajl istovremeno validan `scss` fajl (samo zamenite ekstenziju).
 
 Sass pretvara CSS u ozbiljan programski jezik, dodajući mu varijable, petlje i funkcije. U Sasu možete lako napraviti sopstveni CSS radni okvir ili neku alatku koje vam treba, kao na primer grid sistem.
 
