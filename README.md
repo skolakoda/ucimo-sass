@@ -2,11 +2,18 @@
 
 # Učimo Sass
 
-[Sass](http://sass-lang.com/) je nadskup CSS-a. Svaki validan .css fajl je istovremeno validan .scss fajl. Sass daje dodatne moći CSS-u, između ostalog varijable i funkcije.
+[Sass](http://sass-lang.com/) je nadskup CSS-a. Svaki validan `.css` fajl je istovremeno validan `.scss` fajl.
+
+Sass pretvara CSS u ozbiljan programski jezik, dodajući mu varijable, petlje i funkcije. U Sassu možete napraviti sopstveni CSS framework ili delove koji vam trebaju, kao grid sistem.
 
 ## Instalacija
 
-Da biste instalirali `Sass` morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik. 
+Da biste instalirali `Sass` morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik:
+```
+sudo apt install ruby
+```
+
+Nakon toga naredite:
 
 ```
 gem install sass
@@ -14,14 +21,14 @@ gem install sass
 
 Ukoliko ga koristite preko `npm` paketa, onda morate imati instaliran [Node.js](https://nodejs.org).
 
-## Kompajliranje 
+## Kompajliranje
 
 Kompajlira scss fajl u css:
 ```
 sass style.scss
 ```
 
-## Posmatranje 
+## Posmatranje
 
 Posmatra sve scss fajlove i kompajlira ih u css:
 ```
@@ -35,7 +42,7 @@ sass --watch sass:css
 
 ### NPM watch
 
-Za `npm` treba instalirati `node-sass`: 
+Za `npm` treba instalirati `node-sass`:
 ```
 npm install --save-dev node-sass
 ```

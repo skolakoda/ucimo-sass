@@ -1,30 +1,27 @@
 @import 'variables.scss';
 
 body {
-    background: $primary-color;
-    color: $secondary-color;
+  background: $primary-color;
+  color: $secondary-color;
 }
 
-.blog .entry {
-    background: $secondary-color;
-    color: $primary-color;
-    h1 {
-        color: $primary-color;
-    }
+.blog-entry {
+  background: $secondary-color;
+  color: $primary-color;
 
-    p {
-        font-size: 120%;
-        html.csscolumns & {
-            column-count: 2;
-            column-gap: 10px;
-            margin: 10px;
-        }
-    }
+  h1 {
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 120%;
+  }
 }
 
 a {
-    color: $complement-primary;
-    &:hover {
-        color: $lighter-primary;
-    }
+  color: $primary-complement;
+
+  &:hover {
+    color: $primary-lighter;
+  }
 }
