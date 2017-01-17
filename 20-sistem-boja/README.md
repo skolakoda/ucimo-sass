@@ -1,10 +1,10 @@
-# Postavljanje sistema boja na frontendu sa Sass-om
+# Postavljanje sistema boja na frontendu
 
-Da bismo dosledno primenili dizajn, veoma je bitno postaviti sistem boja na frontendu. Recimo da smo od dizajnera dobili ovu kombinaciju [osnovnih boja](https://color.adobe.com/Organic-color-theme-9091984/edit/?copy=true) i ovu kombinaciju [sivih nijansi](https://color.adobe.com/grayscale-color-theme-7771446/edit/?copy=true).
+Da bismo dosledno primenili dizajn, veoma je bitno postaviti sistem boja na frontendu. Recimo da smo od dizajnera dobili ovu [paletu osnovnih boja](https://color.adobe.com/Organic-color-theme-9091984/edit/?copy=true) i ovu [paletu sivih nijansi](https://color.adobe.com/grayscale-color-theme-7771446/edit/?copy=true).
 
 ## Korak 1: definisanje varijabli
 
-Prvo prevodimo kodove boja u format čitljiv za ljude (obično sa [ovom alatkom](http://chir.ag/projects/name-that-color)) i pravimo odgovarajuće varijable.
+Prvo prevodimo kodove boja u format čitljiv za ljude (sa [ovom alatkom](http://chir.ag/projects/name-that-color)) i pravimo odgovarajuće varijable.
 
 ```scss
 // osnovne boje
@@ -22,7 +22,7 @@ $bombay: #B4B5B7;
 $white: #FEFEFE;
 ```
 
-Sada smo uspostavili paletu boja za projekat, i nadalje ćemo koristi isključivo varijable:
+Sada smo uspostavili paletu boja za projekat, i nadalje ćemo koristi isključivo varijable. Na primer:
 
 ```scss
 .primary-btn {
@@ -35,7 +35,7 @@ Ukoliko neku boju nemamo u varijablama, ili ćemo je dodati ili je nećemo koris
 
 ## Korak 2: pravljenje pomoćnih klasa
 
-Pored varijabli, trebaće nam i pomoćne klase za boju slova i pozadine. Da ne bismo ručno pravili sve te klase, napravićemo funkciju (`mixin`) kojoj prosleđujemo ime boje i njenu vrednost, a ona pravi 2 CSS klase nazvane po toj boji:
+Pored varijabli, trebaju nam i pomoćne klase za boju slova i pozadine. Da ne bismo ručno pravili sve te klase, napravićemo funkciju (`mixin`) kojoj prosleđujemo ime boje i njenu vrednost, a ona pravi CSS klase nazvane po toj boji:
 
 ```scss
 @mixin color($name, $value) {
@@ -48,7 +48,7 @@ Pored varijabli, trebaće nam i pomoćne klase za boju slova i pozadine. Da ne b
 }
 ```
 
-Nakon toga pozivamo tu funkciju sa svim bojama koje želimo:
+Nakon toga pozivamo funkciju `color` sa svim bojama koje želimo:
 
 ```scss
 @include color('jacaranda', $jacaranda);
@@ -64,7 +64,7 @@ Nakon toga pozivamo tu funkciju sa svim bojama koje želimo:
 @include color('white', $white);
 ```
 
-Kao izlaz ovoga dobijamo sledeće CSS klase:
+Kao rezultat dobijamo sledeće CSS klase:
 ```css
 .jacaranda {
   color: #410533;
@@ -152,9 +152,9 @@ Kao izlaz ovoga dobijamo sledeće CSS klase:
 Sada je naš sistem boja uspostavljen, i nove CSS klase možemo koristiti širom projekta na sledeći način:
 
 ```html
-<p class="jacaranda-bg white">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia eaque, rem consectetur, iure, asperiores eveniet? Repudiandae aliquam placeat praesentium reprehenderit, quam velit fugit, reiciendis, officia voluptas sapiente quasi.</p>
+<p class="jacaranda-bg white">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia eaque.</p>
 ```
 
-## Korak 4: Dodaci (opciono)
+## Korak 4: opcioni dodaci
 
-Možete probati da u sistem boja uključite još neka dodatna svojstva, kao što su senke, boja margina ili promena boja na hover. Ali ne treba preterivati, ovo što imamo je sasvim dovoljno za razvoj velikih projekata.
+Možete probati da u sistem boja uključite još neka dodatna svojstva, kao što su senke, boja margina ili promena boja na hover. Ali ne treba preterivati, ovo što imamo je sasvim solidan temelj za razvoj velikih projekata.
