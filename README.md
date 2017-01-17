@@ -35,12 +35,12 @@ sass --watch .
 
 ## Pokretanje lekcija
 
-Da bi radio na lekcijama, potrebno je ući u odgovarajući folder. Na primer:
+Da bi radio na lekcijama, moraš ući u odgovarajući folder. Na primer:
 ```
 cd 10-varijable
 ```
 
-Zatim pokrenuti komandu koja će posmatrati folder `sass` i kompajlirati fajlove u folder `css`:
+Zatim pokreni komandu koja posmatra folder `sass` i kompajlira fajlove u folder `css`:
 ```
 sass --watch sass:css
 ```
