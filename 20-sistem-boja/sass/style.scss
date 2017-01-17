@@ -1,1 +1,29 @@
-@import "colors.scss";
+@import "variables.scss";
+
+@mixin color($name, $value) {
+  .#{$name} {
+    color: $value;
+  }
+  .#{$name}:hover {
+    color: lighten($value, 10%);
+  }
+  .#{$name}-bg {
+    background-color: $value;
+    border-style: solid;
+    border-color: darken($value, 5%);
+  }
+}
+
+// osnovne boje
+@include color('jacaranda', $jacaranda);
+@include color('wheat', $wheat);
+@include color('fire', $fire);
+@include color('red-berry', $red-berry);
+@include color('rosewood', $rosewood);
+
+// sive nijanse
+@include color('black', $black);
+@include color('cod-gray', $cod-gray);
+@include color('mine-shaft', $mine-shaft);
+@include color('bombay', $bombay);
+@include color('white', $white);

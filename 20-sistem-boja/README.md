@@ -147,14 +147,38 @@ Kao rezultat dobijamo sledeće CSS klase:
 }
 ```
 
-## Korak 3: upotreba
+## Korak 3: upotreba klasa
 
-Sada je naš sistem boja uspostavljen, i nove CSS klase možemo koristiti širom projekta na sledeći način:
+Sada je naš sistem boja uspostavljen, i pomoćne klase možemo koristiti širom projekta na sledeći način:
 
 ```html
-<p class="jacaranda-bg white">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia.</p>
+<p class="fire">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia.</p>
+
+<button class="jacaranda-bg white">I agree!</button>
 ```
 
-## Korak 4: opcioni dodaci
+Ovo što sada imamo je sasvim solidan temelj za razvoj velikih projekata.
 
-Možete probati da u sistem boja uključite još neka dodatna svojstva, kao što su senke, boja margina ili promena boja na hover. Ali ne treba preterivati, ovo što imamo je sasvim solidan temelj za razvoj velikih projekata.
+## Eksperimentisanje
+
+Ja sam nastavio još malo da eksperimentišem za svoju zabavu. Dodao sam suptilnu boju ivica i blago posvetljenje boje slova na hover, koristeći ugrađene funkcije `darken` i `lighten`:
+
+```scss
+@mixin color($name, $value) {
+  .#{$name} {
+    color: $value;
+  }
+  .#{$name}:hover {
+    color: lighten($value, 10%);
+  }
+  .#{$name}-bg {
+    background-color: $value;
+    border-style: solid;
+    border-color: darken($value, 5%);
+  }
+}
+```
+
+Eksperimentišite malo za svoju zabavu, ali za projekte stvarnog sveta preporučujem da se zaustavite na koraku 3.
+
+Srećno!
