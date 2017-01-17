@@ -45,7 +45,7 @@ cd ucimo-sass
 cd 10-varijable
 ```
 
-Zatim pokreni komandu koja posmatra folder `sass` i kompajlira fajlove u folder `css`:
+Zatim pokreneš komandu koja posmatra folder `sass` i kompajlira fajlove u folder `css`:
 ```
 sass --watch sass:css
 ```
