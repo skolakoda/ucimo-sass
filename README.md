@@ -21,21 +21,21 @@ gem install sass
 
 ## Kompajliranje
 
-Komanda `sass` kompajlira prosleđeni `.scss` fajl u `.css`:
+Komanda `sass` kompajlira prosleđeni `scss` fajl u `css`:
 ```
 sass style.scss
 ```
 
 ## Posmatranje
 
-Komanda `sass` sa opcijom `watch` posmatra sve scss fajlove i kompajlira ih u css:
+Komanda `sass` sa opcijom `watch` posmatra sve `scss` fajlove i kompajlira ih u `css`:
 ```
 sass --watch .
 ```
 
 ## Pokretanje lekcija
 
-Da bi radio na lekcijama, potrebno je ući u odgovarajući folder:
+Da bi radio na lekcijama, potrebno je ući u odgovarajući folder. Na primer:
 ```
 cd 10-varijable
 ```
