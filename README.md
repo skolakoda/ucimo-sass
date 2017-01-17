@@ -47,7 +47,7 @@ sass --watch sass:css
 
 ## Rad sa NPM paketima
 
-Prvo moraš imati instaliran [Node.js](https://nodejs.org). Nakon toga instaliraš `node-sass`:
+Podrazumeva se da imaš instaliran [Node.js](https://nodejs.org) i napravljen `npm` paket. Nakon toga instaliraš `node-sass`:
 ```
 npm install --save-dev node-sass
 ```
