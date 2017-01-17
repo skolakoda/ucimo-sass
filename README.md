@@ -41,6 +41,7 @@ git clone https://github.com/skolakoda/ucimo-sass.git
 
 Da bi radio na lekcijama, moraš ući u odgovarajući folder. Na primer:
 ```
+cd ucimo-sass
 cd 10-varijable
 ```
 
