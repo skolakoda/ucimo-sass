@@ -156,3 +156,5 @@ Sada je naš sistem boja uspostavljen, i nove CSS klase možemo koristiti širom
 ```
 
 ## Korak 4: Dodaci (opciono)
+
+Možete probati da u sistem boja uključite još neka dodatna svojstva, kao što su senke, boja margina ili promena boja na hover. Ali ne treba preterivati, ovo što imamo je sasvim dovoljno za razvoj velikih projekata.
