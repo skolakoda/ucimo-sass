@@ -40,14 +40,14 @@ Da bi radio na lekcijama, potrebno je ući u odgovarajući folder. Na primer:
 cd 10-varijable
 ```
 
-Zatim pokrenuti komandu koja će posmatrati direktorij `sass` i kompajlirati fajlove u `css`:
+Zatim pokrenuti komandu koja će posmatrati folder `sass` i kompajlirati fajlove u folder `css`:
 ```
 sass --watch sass:css
 ```
 
-### NPM watch
+## node-sass
 
-Za `npm` pakete moraš imati instaliran [Node.js](https://nodejs.org). Nakon toga instaliraš `node-sass`:
+Prvo moraš imati instaliran [Node.js](https://nodejs.org). Nakon toga instaliraš `node-sass`:
 ```
 npm install --save-dev node-sass
 ```
