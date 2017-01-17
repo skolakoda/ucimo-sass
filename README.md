@@ -18,21 +18,7 @@ Sass se instalira komandom:
 gem install sass
 ```
 
-## Kompajliranje
-
-Komanda `sass` kompajlira prosleđeni `scss` fajl u `css`:
-```
-sass style.scss
-```
-
-## Posmatranje
-
-Komanda `sass` sa opcijom `watch` posmatra sve `scss` fajlove i kompajlira ih u `css`:
-```
-sass --watch .
-```
-
-## Pokretanje lekcija
+## Pokretanje
 
 Naravno, prvo kloniraš repo:
 ```
@@ -50,9 +36,25 @@ Zatim pokreneš komandu koja posmatra folder `sass` i kompajlira fajlove u folde
 sass --watch sass:css
 ```
 
-## Rad sa NPM paketima
+## Dokumentacija
 
-Podrazumeva se da imaš instaliran [Node.js](https://nodejs.org) i napravljen `npm` paket. Nakon toga instaliraš `node-sass`:
+Komanda `sass` kompajlira prosleđeni `scss` fajl u `css`:
+```
+sass style.scss
+```
+
+Komanda `sass` sa opcijom `watch` i lokacijom `.` posmatra sve `scss` fajlove i kompajlira ih u `css`:
+```
+sass --watch .
+```
+Možemo specifikovati različiti ulazni i izlazni folder (ulaz `sass`, izlaz `css`):
+```
+sass --watch sass:css
+```
+
+## Automatizacija build procesa
+
+`node-sass` je Sass prilagođen za rad sa `npm`-om, za automatizaciju build procesa. Podrazumeva se da imaš instaliran [Node.js](https://nodejs.org) i napravljen `npm` paket (`package.json`). Nakon toga instaliraš `node-sass`:
 ```
 npm install --save-dev node-sass
 ```

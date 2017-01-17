@@ -1,6 +1,6 @@
-# Postavljanje sistema boja na frontendu
+# Postavljanje sistema boja na frontendu sa Sass-om
 
-Recimo da smo od dizajnera dobili ovu kombinaciju [osnovnih boja](https://color.adobe.com/Organic-color-theme-9091984/edit/?copy=true) i ovu kombinaciju [sivih nijansi](https://color.adobe.com/grayscale-color-theme-7771446/edit/?copy=true).
+Da bismo dosledno primenili dizajn, veoma je bitno postaviti sistem boja na frontendu. Recimo da smo od dizajnera dobili ovu kombinaciju [osnovnih boja](https://color.adobe.com/Organic-color-theme-9091984/edit/?copy=true) i ovu kombinaciju [sivih nijansi](https://color.adobe.com/grayscale-color-theme-7771446/edit/?copy=true).
 
 ## Korak 1: definisanje varijabli
 
@@ -22,11 +22,20 @@ $bombay: #B4B5B7;
 $white: #FEFEFE;
 ```
 
-Sada smo uspostavili paletu boja koju ćemo koristiti na projektu, i nadalje ćemo koristi isključivo varijable. Ukoliko neku boju nemamo u paleti, nećemo je koristiti, da bi dizajn ostao dosledan.
+Sada smo uspostavili paletu boja za projekat, i nadalje ćemo koristi isključivo varijable:
+
+```scss
+.primary-btn {
+  color: $fire;
+  background-color: $white;
+}
+```
+
+Ukoliko neku boju nemamo u varijablama, ili ćemo je dodati ili je nećemo koristiti, kako bi dizajn ostao dosledan.
 
 ## Korak 2: pravljenje pomoćnih klasa
 
-Pored varijabli, trebaće nam i pomoćne klase za boju slova i pozadine. Da ne bismo pravili ručno sve te klase, napravićemo Sass funkciju (`mixin`) kojoj prosleđujemo ime boje i njenu vrednost, a ona pravi 2 CSS klase, nazvane po toj boji:
+Pored varijabli, trebaće nam i pomoćne klase za boju slova i pozadine. Da ne bismo ručno pravili sve te klase, napravićemo funkciju (`mixin`) kojoj prosleđujemo ime boje i njenu vrednost, a ona pravi 2 CSS klase nazvane po toj boji:
 
 ```scss
 @mixin color($name, $value) {
@@ -137,3 +146,13 @@ Kao izlaz ovoga dobijamo sledeće CSS klase:
   background-color: #FEFEFE;
 }
 ```
+
+## Korak 3: upotreba
+
+Sada je naš sistem boja uspostavljen, i nove CSS klase možemo koristiti širom projekta na sledeći način:
+
+```html
+<p class="jacaranda-bg white">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia eaque, rem consectetur, iure, asperiores eveniet? Repudiandae aliquam placeat praesentium reprehenderit, quam velit fugit, reiciendis, officia voluptas sapiente quasi.</p>
+```
+
+## Korak 4: Dodaci (opciono)
