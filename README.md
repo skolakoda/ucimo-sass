@@ -19,8 +19,6 @@ Nakon toga naredite:
 gem install sass
 ```
 
-Ukoliko ga koristite preko `npm` paketa, onda morate imati instaliran [Node.js](https://nodejs.org).
-
 ## Kompajliranje
 
 Kompajlira scss fajl u css:
@@ -42,7 +40,7 @@ sass --watch sass:css
 
 ### NPM watch
 
-Za `npm` treba instalirati `node-sass`:
+Za `npm` pakete moraš imati instaliran [Node.js](https://nodejs.org). Nakon toga instaliraš `node-sass`:
 ```
 npm install --save-dev node-sass
 ```
