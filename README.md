@@ -45,7 +45,7 @@ Zatim pokrenuti komandu koja će posmatrati folder `sass` i kompajlirati fajlove
 sass --watch sass:css
 ```
 
-## node-sass
+## Rad sa NPM paketima
 
 Prvo moraš imati instaliran [Node.js](https://nodejs.org). Nakon toga instaliraš `node-sass`:
 ```
