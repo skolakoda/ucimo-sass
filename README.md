@@ -13,8 +13,7 @@ Da biste instalirali `Sass` morate imati instaliran [Ruby](https://www.ruby-lang
 sudo apt install ruby
 ```
 
-Nakon toga naredite:
-
+Sass se instalira komandom:
 ```
 gem install sass
 ```
@@ -34,6 +33,11 @@ sass --watch .
 ```
 
 ## Pokretanje lekcija
+
+Naravno, prvo kloniraš repo:
+```
+git clone https://github.com/skolakoda/ucimo-sass.git
+```
 
 Da bi radio na lekcijama, moraš ući u odgovarajući folder. Na primer:
 ```
