@@ -54,9 +54,9 @@ Možemo specifikovati različiti ulazni i izlazni folder (ulaz `sass`, izlaz `cs
 sass --watch sass:css
 ```
 
-## Build automatizacija
+## Node Sass
 
-`node-sass` je Sass prilagođen za rad sa `npm`-om, za automatizaciju build procesa. Podrazumeva se da imaš instaliran [Node.js](https://nodejs.org) i napravljen `npm` paket (`package.json`). Nakon toga instaliraš `node-sass`:
+`node-sass` je prilagođen za rad sa `npm`-om, za automatizaciju build procesa. Podrazumeva se da imaš instaliran [Node.js](https://nodejs.org) i napravljen `npm` paket (`package.json`). Nakon toga instaliraš `node-sass`:
 ```
 npm install --save-dev node-sass
 ```
