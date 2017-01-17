@@ -152,7 +152,7 @@ Kao rezultat dobijamo sledeće CSS klase:
 Sada je naš sistem boja uspostavljen, i nove CSS klase možemo koristiti širom projekta na sledeći način:
 
 ```html
-<p class="jacaranda-bg white">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia eaque.</p>
+<p class="jacaranda-bg white">Vel quod quis quasi illo ea amet, omnis aliquid voluptatem officia.</p>
 ```
 
 ## Korak 4: opcioni dodaci

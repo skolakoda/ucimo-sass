@@ -2,13 +2,13 @@
 
 # Učimo Sass
 
-[Sass](http://sass-lang.com/) je nadskup CSS-a. Svaki validan `.css` fajl je istovremeno validan `.scss` fajl. Sass pretvara CSS u ozbiljan programski jezik, dodajući mu varijable, petlje i funkcije.
+[Sass](http://sass-lang.com/) je nadskup CSS-a, koji koristi ekstenziju `scss`. Svaki validan `css` fajl je istovremeno validan `scss` fajl. Sass pretvara CSS u ozbiljan programski jezik, dodajući mu varijable, petlje i funkcije.
 
 U Sasu možete lako napraviti sopstveni CSS radni okvir ili neku alatku koje vam treba, kao na primer grid sistem.
 
 ## Instalacija
 
-Da biste instalirali `Sass` morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik:
+Da biste instalirali Sass morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik:
 ```
 sudo apt install ruby
 ```
