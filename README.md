@@ -36,7 +36,7 @@ Zatim pokreneš komandu koja posmatra folder `sass` i kompajlira fajlove u folde
 sass --watch sass:css
 ```
 
-## Dokumentacija
+## Opcije
 
 Komanda `sass` kompajlira prosleđeni `scss` fajl u `css`:
 ```
