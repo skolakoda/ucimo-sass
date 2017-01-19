@@ -26,7 +26,7 @@ Možemo imati kolona koliko hoćemo, ali ljudi često biraju 12 jer je deljivo s
 
 ## Korak 2: pravljenje grida
 
-Prvo, kolonama stavljamo `float: left`, kako bi se poređale jedna pored druge. Podrazumevana širina će im biti 100%, za najmanje uređaje. Pored toga, daćemo `padding-right` radi razmaka, svakoj koloni osim poslednje:
+Kolonama stavljamo `float: left`, kako bi se poređale jedna pored druge. Podrazumevana širina će im biti 100%, za najmanje uređaje. Pored toga, daćemo `padding-right` radi razmaka, svakoj koloni osim poslednje:
 
 ```scss
 [class*='col-'] {
