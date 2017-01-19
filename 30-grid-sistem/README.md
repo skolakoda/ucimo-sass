@@ -38,7 +38,7 @@ Kolonama podešavamo `float: left`, kako bi se poređale jedna pored druge. Podr
 }
 ```
 
-Pošto kolone imaju `float`, red mora imati `overflow: auto` da bi sačuvao svoju visinu:
+Pošto sve kolone unutar reda imaju `float`, red mora imati `overflow: auto` da bi sačuvao svoju visinu:
 ```css
 .row {
   overflow: auto;
