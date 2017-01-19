@@ -45,7 +45,7 @@ Pošto sve kolone unutar reda imaju `float`, red mora imati `overflow: auto` da 
 }
 ```
 
-Funkcija `grid` prima željenu veličinu i pravi sve kolone za tu veličinu:
+Funkcija `grid` prima željenu veličinu i pravi sve kolone za tu veličinu. Grid pravimo tako što broj kolona podelimo sa širinom stranice, i svakoj damo odgovarajuću širinu:
 
 ```scss
 @mixin grid($breakpoint, $size) {
@@ -55,16 +55,6 @@ Funkcija `grid` prima željenu veličinu i pravi sve kolone za tu veličinu:
         width: (100% / $columns) * $i;
       }
     }
-  }
-}
-```
-
-Grid pravimo tako što broj kolona podelimo sa širinom stranice, i svakoj damo odgovarajuću širinu. Ovaj deo je ključan:
-
-```scss
-@for $i from 1 through $columns {
-  .col-#{$size}-#{$i} {
-    width: (100% / $columns) * $i;
   }
 }
 ```
