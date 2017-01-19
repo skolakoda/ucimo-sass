@@ -6,15 +6,13 @@ Pored grida, obično postoji i `container` koji se brine za ukupnu širinu stran
 
 ## Korak 0: priprema terena
 
-Po defaultu, CSS dodaje padding širini elementa. Mi želimo da menjamo padding po potrebi, a da širina elementa ostaje ista. Zato svima dodajemo `box-sizing: border-box`:
+Po defaultu, CSS uračunava padding u širinu elementa. Mi želimo da menjamo unutrašnji razmak po potrebi, a da širina elementa ostaje ista. Zato svima dodajemo `box-sizing: border-box`:
 
 ```css
 * {
   box-sizing: border-box;
 }
 ```
-Sada, svaki element će moći da menja unutrašnje razmake, a spolja se neće širiti.
-
 ## Korak 1: definisanje varijabli
 
 Prvo, definišemo broj kolona i razmak između njih:
