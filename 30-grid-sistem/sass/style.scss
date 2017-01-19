@@ -1,0 +1,39 @@
+$columns: 12;
+$spacing: 20px;
+
+* {
+  box-sizing: border-box;
+}
+
+// .container {
+//   margin: auto;
+// }
+
+.row {
+  overflow: auto;
+}
+
+[class*='col-'] {
+  float: left;
+  width: 100%;
+  &:not(:last-of-type) {
+    padding-right: $spacing;
+  }
+}
+
+@mixin grid($size, $breakpoint) {
+  @media (min-width: $breakpoint) {
+    // .container {
+    //   width: $breakpoint - $spacing;
+    // }
+    @for $i from 1 through $columns {
+      .col-#{$size}-#{$i} {
+        width: (100% / $columns) * $i;
+      }
+    }
+  }
+}
+
+@include grid('sm', 544px);
+@include grid('md', 768px);
+@include grid('lg', 1200px);
