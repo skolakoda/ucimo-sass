@@ -1,6 +1,6 @@
 # Kako napraviti responsive grid sistem?
 
-U nekoliko prostih koraka napravićemo grid sistem, sličan onom koji koristi Bootstrap. Grid sistem simulira tabelu, koja nam omogućava napredno pozicioniranje HTML elementa. Kao i svaka tabela, sastoji se od redova i kolona.
+U nekoliko prostih koraka napravićemo grid sistem, sličan onom koji koristi Bootstrap. Grid sistem zapravo simulira tabelu, koja nam omogućava napredno pozicioniranje HTML elementa. Kao i svaka tabela, sastoji se od redova i kolona.
 
 Pored grida, obično postoji i `container` koji se brine za ukupnu širinu stranice. Iako idu u paketu, container nije deo grida, i grid može raditi potpuno nezavisno od njega.
 
