@@ -22,7 +22,7 @@ $columns: 12;
 $spacing: 20px;
 ```
 
-Možete imati kolona koliko hoćete, ali ljudi često biraju 12 jer je deljivo sa mnogim brojevima (6, 4, 3).
+Možemo imati kolona koliko hoćemo, ali ljudi često biraju 12 jer je deljivo sa mnogim brojevima (6, 4, 3).
 
 ## Korak 2: pravljenje grida
 
