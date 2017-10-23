@@ -42,7 +42,7 @@ Za svaku lekciju Sass prevodilac se pokreće na isti način.
 
 Komanda `sass` kompajlira prosleđeni `scss` fajl u `css`:
 ```
-sass style.scss
+sass style.scss style.css
 ```
 
 Komanda `sass` sa opcijom `watch` i lokacijom `.` posmatra sve `scss` fajlove i kompajlira ih u `css`:
