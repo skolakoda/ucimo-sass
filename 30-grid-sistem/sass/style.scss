@@ -5,9 +5,10 @@ $spacing: 20px;
   box-sizing: border-box;
 }
 
-// .container {
-//   margin: auto;
-// }
+.container {
+  margin: auto;
+  width: 80%;
+}
 
 .row {
   overflow: auto;
@@ -23,9 +24,6 @@ $spacing: 20px;
 
 @mixin grid($size, $breakpoint) {
   @media (min-width: $breakpoint) {
-    // .container {
-    //   width: $breakpoint - $spacing;
-    // }
     @for $i from 1 through $columns {
       .col-#{$size}-#{$i} {
         width: (100% / $columns) * $i;

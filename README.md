@@ -8,51 +8,42 @@ Sass pretvara CSS u ozbiljan programski jezik, dodajući mu varijable, petlje i 
 
 ## Instalacija
 
-Da biste instalirali Sass morate imati instaliran [Ruby](https://www.ruby-lang.org/en/) programski jezik:
+Moraš prvo instalirati [Ruby](https://www.ruby-lang.org/en/), a potom Sass. Na Linuxu:
+
 ```
 sudo apt install ruby
-```
-
-Sass se instalira komandom:
-```
 gem install sass
 ```
 
-## Pokretanje
+## Prevođenje
 
-Prvo kloniraš repo i uđeš u njega:
-```
-git clone https://github.com/skolakoda/ucimo-sass.git
-cd ucimo-sass
-```
+Komanda `sass` prima dva argumenta, ulazni (`.scss`) i izlazni (`.css`) fajl:
 
-Zatim uđeš u folder neke lekcije, na primer:
 ```
-cd 10-varijable
+sass style.scss style.css
 ```
 
-Odatle pokreneš komandu koja posmatra folder `sass` i kompajlira fajlove u folder `css`:
+Da ne bismo nakon svake izmene ručno prevodili fajl, koristimo opciju `--watch`:
+
+```
+sass --watch style.scss:style.css
+```
+
+U praksi redovno držimo izvorne i prevedene fajlove u zasebnim folderima. Sledećom komandom prevodimo sve fajlove iz ulaznog (`sass`) u izlazni (`css`) folder:
+
+```
+sass --watch sass:css
+```
+
+## Pokretanje primera
+
+Pošto kloniraš repo, uđeš u folder neke lekcije i pokreneš komandu:
+
 ```
 sass --watch sass:css
 ```
 
 Za svaku lekciju Sass prevodilac se pokreće na isti način.
-
-## Opcije
-
-Komanda `sass` kompajlira prosleđeni `scss` fajl u `css`:
-```
-sass style.scss style.css
-```
-
-Komanda `sass` sa opcijom `watch` i lokacijom `.` posmatra sve `scss` fajlove i kompajlira ih u `css`:
-```
-sass --watch .
-```
-Možemo specifikovati različiti ulazni i izlazni folder (ulaz `sass`, izlaz `css`):
-```
-sass --watch sass:css
-```
 
 ## Node Sass
 
