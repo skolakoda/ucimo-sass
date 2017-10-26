@@ -1,0 +1,4 @@
+$primary-color: #090;
+$secondary-color: #FFF;
+$primary-complement: complement($primary-color);
+$primary-lighter: lighten($primary-color, 20%);
