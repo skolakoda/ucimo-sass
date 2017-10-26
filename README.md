@@ -45,6 +45,14 @@ sass --watch sass:css
 
 Za svaku lekciju Sass prevodilac se pokreće na isti način.
 
+## Node i npm 
+
+Nakon instalacije [Node.js](https://nodejs.org) i [npm](https://npm.org), instaliraj sve module jednom komandom
+```
+npm install
+```
+Ako želiš da instaliraš pojedinačne module, uputstva se nalaze ispod.
+
 ## Node Sass
 
 `node-sass` je prilagođen za rad sa `npm`-om, za automatizaciju build procesa. Podrazumeva se da imaš instaliran [Node.js](https://nodejs.org) i napravljen `npm` paket (`package.json`). Nakon toga instaliraš `node-sass`:

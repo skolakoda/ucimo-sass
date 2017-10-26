@@ -1,0 +1,22 @@
+{
+  "name": "ucimo-sass",
+  "version": "1.0.0",
+  "description": "Radni fajlovi za ucenje sass-a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skolakoda/ucimo-sass.git"
+  },
+  "author": "(skola koda)[http://skolakoda.org/]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skolakoda/ucimo-sass/issues"
+  },
+  "homepage": "https://github.com/skolakoda/ucimo-sass",
+  "devDependencies": {
+    "node-sass": "^4.3.0"
+  }
+}
