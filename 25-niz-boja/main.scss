@@ -1,0 +1,16 @@
+$colors: (
+    "bleached-cedar": #35203B, 
+    "citron": #88A825, 
+    "disco": #911146,
+    "valencia": #CF4A30,
+    "carrot-orange": #ED8C2B
+);
+
+@each $key, $value in $colors {
+    .boja-#{$key} {
+        color: $value;
+    }
+    .bg-#{$key} {
+        background: $value;
+    }
+}
