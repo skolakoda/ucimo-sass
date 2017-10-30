@@ -1,0 +1,8 @@
+$broj-kolona: 12;
+
+@for $i from 1 through $broj-kolona {
+  .col-#{$i} {
+      width: 100% / $broj-kolona * $i;
+      float: left;
+  }
+}
