@@ -47,7 +47,7 @@ Za svaku lekciju Sass prevodilac se pokreće na isti način.
 
 ## Node i npm
 
-`node-sass` je prilagođen za rad sa `npm`-om, za automatizaciju build procesa. Koristi se na sledeći način:
+`node-sass` je prilagođen za rad sa `npm`-om, za automatizaciju build procesa. Koristi se u node projektima na sledeći način:
 
 ```
 node-sass -w src/sass -o dist/css
