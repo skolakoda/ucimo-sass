@@ -35,7 +35,7 @@ U praksi redovno držimo izvorne i prevedene fajlove u zasebnim folderima. Slede
 sass --watch sass:css
 ```
 
-## Pokretanje primera
+## Pokretanje lekcija
 
 Pošto kloniraš repo, uđeš u folder neke lekcije i pokreneš komandu:
 
