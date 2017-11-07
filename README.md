@@ -15,7 +15,7 @@ sudo apt install ruby
 gem install sass
 ```
 
-## Prevođenje
+## Kompajliranje
 
 Komanda `sass` prima dva argumenta, ulazni (`.scss`) i izlazni (`.css`) fajl, na primer:
 
